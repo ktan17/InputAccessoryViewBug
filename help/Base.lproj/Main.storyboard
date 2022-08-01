@@ -32,14 +32,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpJ-ca-kVy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39b-tX-vX8">
                                 <rect key="frame" x="173.5" y="432.5" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39b-tX-vX8">
-                                <rect key="frame" x="174" y="433" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
@@ -50,8 +44,8 @@
                         <viewLayoutGuide key="safeArea" id="s6w-cI-Kj1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="NpJ-ca-kVy" firstAttribute="centerY" secondItem="CKm-de-AkF" secondAttribute="centerY" id="2m4-2w-Erw"/>
-                            <constraint firstItem="NpJ-ca-kVy" firstAttribute="centerX" secondItem="CKm-de-AkF" secondAttribute="centerX" id="qSt-sZ-ZZs"/>
+                            <constraint firstItem="39b-tX-vX8" firstAttribute="centerX" secondItem="CKm-de-AkF" secondAttribute="centerX" id="Lrw-Bk-hyh"/>
+                            <constraint firstItem="39b-tX-vX8" firstAttribute="centerY" secondItem="CKm-de-AkF" secondAttribute="centerY" id="wen-sy-7IY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="B6E-a4-Wqt"/>
